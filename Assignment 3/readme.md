@@ -1,4 +1,5 @@
 Here is my design for this project.
+
 ![image](https://github.com/otis425/OB-CS290/assets/71042122/69ac6345-c9fe-4ca7-b40b-d6e4f19dfb9b)
 The main page consists of a static header, and a sitemap of sorts. Each character listed on the page can be selected to be taken to a bio page for that person. That means I also had to create a second type of page for this website.
 ![image](https://github.com/otis425/OB-CS290/assets/71042122/a21fe03c-2afa-4560-8c75-95969fc68fbd)
