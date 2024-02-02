@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#fixed_top {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:whitesmoke;
+    padding: 10px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 0px 7px 7px 0px;
+}
+
+h1 {
+display: inline;
+}
+
+#breadcrumb {
+    display: block;
+    float: right;
+    font-size: large;
+    padding: 10px;
+}
+
+#breadcrumb p {
+    background-color:bisque;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px 5px;
+    padding: 4px 7px 4px 7px;
+    border: 2px solid black
+}
+
+#familypic {
+    display: block;
+    clear: both;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+#family_member_box {
+    width: 85%;
+    margin: 20px auto;
+    background-color:gainsboro;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#member_identity {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+#member_identity:hover {
+    background-color:rgb(132, 132, 132) ;
+}
+
+#member_pic {
+    border: 4px dashed black;
+    width: 80%;
+    margin: 2% 0 0 8%;
+    border-radius: 10px;
+    display: inline;
+}
+
+#member_titles {
+    width: 100%;
+    margin: 0 0 0 8%;
+    min-width:fit-content;
+    vertical-align: top;
+}
+
+#member_titles h2,h3 {
+    margin-top: 0%;
+    margin-bottom: 0;
+    display: block;
+}
+
+#member_mini_bio {
+    float: right;
+    width: 70%;
+    height: 100%;
+    font-size: 3vw;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 525px) {
+    body {
+        margin-top: 70px;
+    }
+    #breadcrumb {float:left;}
+}
