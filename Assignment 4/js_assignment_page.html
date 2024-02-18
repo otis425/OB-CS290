@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="js_assignment_styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header"><div class="center"><p> FORM DEMO </p></div></div>
+    
+    <div class = "large-center-divs" id = "top-center-div">
+        <div class="div_label"><p>FORM CREATOR</p></div>
+        <div id="div_interiorfill">
+            <p>Please fill out this form, and then submit! </p>
+            <form id="formid">
+                <p class="pre-input">Name :</p><input type="text" placeholder="No Name" id="name_input"> <br>
+                <p class="pre-input">Title :</p><input type="text" placeholder="Title" id="title_input"> <br>
+                <p> Write some numbers here! </p>
+                <p class="pre-input">Option 1 :</p><input type="number" placeholder="Rank 1" id="rank1"> <br>
+                <p class="pre-input">Option 2 :</p><input type="number" placeholder="Rank 2" id="rank2"> <br> <br>
+                <p class="pre-input">Comments? </p> <br> <span contenteditable="true" id="comments_input"> My comment is ... </span> <br><br>
+                <input type="button" value="SUBMIT" onclick="SubmitPress()">
+            </form>
+        </div>
+    </div>
+    <div class="large-center-divs" id="bottom-center-div">
+        <div class="div_label"><p>FORM RECEIVER</p></div>
+        <div id="left-lesserhalf">
+            <li id="0" onclick="ClickedForm_ReceivedItem(this)"> Owen </li>
+        </div>
+        <div id="right-greaterhalf">
+            <p class="received_info"> FORM CONTENTS : </p>
+            <p class="received_info" id="received_name"> Name : </p>
+            <p class="received_info" id="received_title"> Title : </p>
+            <p class="received_info" id="received_rank1"> Rank 1 : </p>
+            <p class="received_info" id="received_rank2"> Rank 2 : </p>
+            <span class ="received_info" id="received_comments"> Comment : </span>
+        </div>
+    </div>
+    <script src="js_assignment.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+body {
+    margin : 0px;
+    background-color: beige;
+}
+
+#header {
+    background-color: antiquewhite;
+    padding: 5px;
+    max-height: fit-content;
+    border-bottom: 3px solid burlywood;
+}
+
+#header p {
+    margin: 0;
+    text-align: center;
+    font-family: "Kode Mono";
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.large-center-divs {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: minmax(0, 0.1fr) 1fr;
+    gap: 0;
+    margin: 30px auto;
+    width: 80%;
+    min-height: 325px;
+    max-height: 325px;
+}
+
+#top-center-div {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 5px solid burlywood;
+}
+
+#bottom-center-div {
+    background-color: slategrey;
+    border-radius: 5px;
+    border: 5px solid darkslategrey;
+}
+
+.div_label {
+    grid-column: span 2;
+    width: 100%;
+}
+
+.div_label p {
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Kode Mono";
+}
+
+#top-center-div .div_label {
+    background-color: blanchedalmond;
+    border-bottom: 4px solid burlywood;
+}
+
+#bottom-center-div .div_label {
+    background-color: lightslategray;
+    border-bottom: 4px solid darkslategrey;
+}
+
+#div_interiorfill {
+    grid-column: span 2;
+    width: 90%;
+    position: relative;
+    padding: 0 5%;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+form {
+    padding: 20px 20px;
+}
+
+.pre-input {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+#comments_input {
+    background-color: white;
+    border: solid 1px black;
+    width: 70%;
+    max-width: 70%;
+    padding: 5px;
+    display: inline-block; 
+}
+
+input[type=button] {
+    font-family: "Kode Mono";
+}
+
+#left-lesserhalf{
+    background-color: snow;
+    border-right: 3px solid grey;
+}
+
+#left-lesserhalf li {
+    list-style-type: none;
+    font-family: "Kode Mono";
+    padding: 0 0 0 5px;
+    border-bottom: 1px solid grey;
+}
+
+#left-lesserhalf li:hover {
+    background-color: lightgray;
+}
+
+#left-lesserhalf li:active {
+    background-color: grey;
+}
+
+#right-greaterhalf{
+    background-color: powderblue;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
+.received_info {
+    font-family: "Kode Mono";
+    font-weight: 500;
+    border-bottom: 1px black dashed;
+    display: block;
+}
