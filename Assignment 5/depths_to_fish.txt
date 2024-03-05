@@ -1,0 +1,6 @@
+{
+    0: ["Goldfish", "Clownfish", "Guppy"],
+    -50: ["Catfish", "Flounder", "Snapper"],
+    -100: ["Halibut", "Tiger Shark", "Swordfish"],
+    -200: ["Blobfish", "Anglerfish", "Gulper Eel"]
+}
