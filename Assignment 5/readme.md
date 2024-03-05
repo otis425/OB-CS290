@@ -16,7 +16,7 @@ To start the game make sure you run your python file first, and then it will sta
 
 ~ Here are the default depths! ~
 
-0: "Goldfish", "Clownfish", "Guppy",
--50: "Catfish", "Flounder", "Snapper",
--100: "Halibut", "Tiger Shark", "Swordfish"
--200: "Blobfish", "Anglerfish", "Gulper Eel"
+0: "Goldfish", "Clownfish", "Guppy", <br>
+-50: "Catfish", "Flounder", "Snapper", <br>
+-100: "Halibut", "Tiger Shark", "Swordfish" <br>
+-200: "Blobfish", "Anglerfish", "Gulper Eel" <br>
