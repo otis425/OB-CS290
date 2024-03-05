@@ -1,6 +1,7 @@
 HI !
 
 ~ SUMMARY ~
+
 This assignment was fun! It was very difficult to think of a project that could utilize server-side scripting, because so many things can just use javascript. I made a diving game however, and it felt like it was so much more work that it looks on the surface. I used Python with Flask as my serverside scripting solution. The entire diving game is handled in JavaScript, however when you get back to the boat, a packet is sent to the Python script that holds your max depth reached. Then i use some python to match your max depth with a depth milestone. A txt file holds all the milestones and their fish available. Then the python script sends back the fish to the game on javascript to add to your list of fish caught. When you run out of oxygen your list gets cleared! Make it back to the boat in time!!
 
 ~ IMAGES ~
