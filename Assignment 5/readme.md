@@ -13,3 +13,10 @@ This assignment was fun! It was very difficult to think of a project that could 
 ~ RUNNING THE GAME ~
 
 To start the game make sure you run your python file first, and then it will standby to receive packets from Javascript. All should work from there!
+
+~ Here are the default depths! ~
+
+0: "Goldfish", "Clownfish", "Guppy",
+-50: "Catfish", "Flounder", "Snapper",
+-100: "Halibut", "Tiger Shark", "Swordfish"
+-200: "Blobfish", "Anglerfish", "Gulper Eel"
