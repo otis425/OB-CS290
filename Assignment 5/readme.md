@@ -11,4 +11,5 @@ This assignment was fun! It was very difficult to think of a project that could 
 ![scrollbar](https://github.com/otis425/OB-CS290/assets/71042122/1723dbad-cb40-4779-8740-b604f449388a)
 
 ~ RUNNING THE GAME ~
-To run this make sure you run your python file first, and then it will standby to receive packets from Javascript.
+
+To start the game make sure you run your python file first, and then it will standby to receive packets from Javascript. All should work from there!
