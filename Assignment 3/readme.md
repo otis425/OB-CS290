@@ -11,3 +11,11 @@ The bio pages were going to have a small outliner, with and image. I knew I also
 I think I managed to complete my vision pretty well, however there are a few limits to my execution. I really wanted to have a back button to travel backwards on your breadcrumbs, but the embedded bio links weren't helping me complete that vision as there were multiple paths to each page. I am happy though that I managed to get a few responsive css styles working, such as shifting the site buttons under the static header, and expanding the main column to fill the whole page when small. This project helped further my understanding of divs, with div spacing and scaling still being very difficult to work around. This issue can become even more tedious with images involved.
 
 make sure you get to the pizza page! that one is my favorite.
+
+Some images of the final outcome :
+![image](https://github.com/otis425/OB-CS290/assets/71042122/c413bb95-bf8a-4ed0-a100-68336b2d07ea)
+![image](https://github.com/otis425/OB-CS290/assets/71042122/a5fb4371-1f1b-4e3b-bf3a-b689f3581acd)
+![image](https://github.com/otis425/OB-CS290/assets/71042122/d3fbb131-2f5b-4f91-8b7b-6300020921fc)
+
+
+
