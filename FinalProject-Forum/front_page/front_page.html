@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Forum 101</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="front_styles.css">
+    <link rel="stylesheet" href="/post_creator_styles.css">
+</head>
+<body>
+    <script src="front_page_posts.js"></script>
+    <div id="header">
+        <div id="forum-details">
+            <a href="/front_page/front_page.html"><div id="forum-name">Forum 101</div></a>
+            <div id="forum-details-right">
+                <span id="unique-posts"> total posts = ~ </span>
+                <br>
+                <span id="unique-comments"> total comments = ~ </span>
+            </div>
+        </div>
+        <a><div id="create-post-button">CREATE POST</div></a>
+    </div>
+    <div id="post-creator-div">
+        <form id="post-form">
+            <div id="post-form-l">
+                <img id="input-preview-img">
+                <select id="input-image-drop">
+                    <option value="">Select Image</option>
+                </select>
+                <input id="input-name" type="text" placeholder="Name">
+            </div>
+            <div id="post-form-r">
+                <input type="text" id="input-post-title" placeholder="Title">
+                <textarea id="input-post-content" placeholder="Content"></textarea>
+                <input type="submit" id="input-submit-post" value="Create Post">
+            </div>
+        </form>
+    </div>
+    <script src="/post_creator.js"></script>
+    
+</body>
+</html>
