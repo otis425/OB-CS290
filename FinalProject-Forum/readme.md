@@ -16,6 +16,6 @@ missing post fields
 server retrieval errors
 ![image](https://github.com/otis425/OB-CS290/assets/71042122/33713c11-62d5-4b25-abb0-9d8926107765)
 
-To run this project, you will need the module flask, flask_cors, and json. Simply make sure the python script is running, and then load the html front_page using some kind of live-server. You may need to change some ports if your Live-server doesn't run on 5500. The python port must be different from the live-server. line 135 changes the python target port, and line 16 should be where you can pick the port to expect requests from (the live server)
+To run this project, you will need the modules; flask, flask_cors, and json. Simply make sure the python script is running, and then load the html front_page using some kind of live-server. You may need to change some ports if your Live-server doesn't run on 5500. The python port must be different from the live-server. line 135 changes the python target port, and line 16 should be where you can pick the port to expect requests from (the live server)
 
 I thought this was a really fun project! Once I got the hang of things, it started becoming pretty fun to figure out how to retrieve the data, and populate the pages. I had never used URL queries before, so I find it neat that the project only contains two html files, but could potentially have many thousands of different unique posts. 
